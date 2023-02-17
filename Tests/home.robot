@@ -1,6 +1,6 @@
 *** Settings ***
 
-Library        AppiumLibrary
+Resource        ../resources/base.robot
 
 *** Test Cases ***
 Deve abrir a tela principal
