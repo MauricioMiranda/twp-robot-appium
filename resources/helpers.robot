@@ -19,3 +19,23 @@ Open Nav
     Click Element                       ${HAMBURGER}
     Wait Until Element Is Visible       ${NAV_VIEW}
 
+Go To Login Form
+    Open Nav
+
+    Click Text                          FORMS
+    Wait Until Page Contains            FORMS
+
+    Click Text                          LOGIN
+    Wait Until Page Contains            Fala QA, vamos testar o login?
+
+Go To Radion Buttons
+    Open Nav
+    
+    Click Text                          INPUTS
+    Wait Until Page Contains            INPUTS
+
+    Click Text                          BOTÕES DE RADIO
+    Wait Until Page Contains            INPUTS
+
+    Wait Until Page Contains            Escolha sua linguagem preferida
+
