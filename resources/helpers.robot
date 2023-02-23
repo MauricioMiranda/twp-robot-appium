@@ -28,6 +28,15 @@ Go To Login Form
     Click Text                          LOGIN
     Wait Until Page Contains            Fala QA, vamos testar o login?
 
+Go To SingUp Form
+    Open Nav
+
+    Click Text                          FORMS
+    Wait Until Page Contains            FORMS
+
+    Click Text                          CADASTRO
+    Wait Until Page Contains            Bem-vindo, crie sua conta.
+
 Go To Radion Buttons
     Open Nav
     
@@ -65,3 +74,4 @@ Go To Long Click
 
     Click Text                          CLIQUE LONGO
     Wait Until Page Contains            Botão clique longo
+
