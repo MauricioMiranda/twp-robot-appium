@@ -75,3 +75,12 @@ Go To Long Click
     Click Text                          CLIQUE LONGO
     Wait Until Page Contains            Botão clique longo
 
+Go To Avenger List
+    Open Nav
+
+    Click Text                          AVENGERS
+    Wait Until Page Contains            AVENGERS
+
+    Click Text                          LISTA
+    Wait Until Page Contains            LISTA
+
