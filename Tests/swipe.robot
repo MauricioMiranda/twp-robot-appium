@@ -3,7 +3,7 @@
 Resource              ../resources/base.robot
 
 Test Setup            Open Session
-Test Teardown         Close Application
+Test Teardown         Close Session
 
 # start_x - x-percent at which to start
 # start_y - y-percent at which to start
@@ -18,16 +18,15 @@ Test Teardown         Close Application
 # X 47.22 => Vertical
 
 *** Variables ***
-${BTN_REMOVE}          id=io.qaninja.android.twp:id/btnRemove
+${BTN_REMOVE}                               id=io.qaninja.android.twp:id/btnRemove
 
 *** Test Cases ***
 
 Deve remover o Capitão América
+
     Go To Avenger List
+    Swipe By Percent                         88.88        18.22        47.22        18.22
 
-    Swipe By Percent    88.88        18.22        47.22        18.22
-
-    Wait Until Element Is Visible    ${BTN_REMOVE}
-
-    Click Element                    ${BTN_REMOVE}
-    Sleep        5
+    Wait Until Element Is Visible            ${BTN_REMOVE}
+    Click Element                            ${BTN_REMOVE}
+    Wait Until Page Does Not Contain         ${BTN_REMOVE}

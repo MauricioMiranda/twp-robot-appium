@@ -3,7 +3,7 @@
 Resource              ../resources/base.robot
 
 Test Setup            Open Session
-Test Teardown         Close Application
+Test Teardown         Close Session
 
 *** Test Cases ***
 Deve logar com sucesso
