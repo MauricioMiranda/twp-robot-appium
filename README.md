@@ -69,11 +69,18 @@ Adicionar a linha: “C:\Users\mauri\AppData\Local\Android\Sdk\platform-tools”
 18 - Abrir terminal do windows e digitar “node –version”
 	digitar também “npm –version” npm é o gerenciador de pacotes do Node.js
 
-19 - Instalar Appium, digitando o comando “npm install appuim -g”
-
-20 - Instalar o “npm install apium-doctor -g”
-
-21 - Realizar o diagnóstico no notebook para ver se ele está apto para criar sessões no Appium com o Android. Abrir o terminal e digitar “appium-doctor –android”
+19 - Instalar Appium, digitando o comando
+...
+npm install appuim -g
+...
+20 - Instalar o
+...
+npm install apium-doctor -g
+...
+21 - Realizar o diagnóstico no notebook para ver se ele está apto para criar sessões no Appium com o Android. Abrir o terminal e digitar
+...
+appium-doctor –android
+...
 
 22 - Baixar Appium Desktop: https://appium.io/downloads.html
 	por exemplo: Appium-Server-GUI-windows-1.22.3-4.exe
@@ -110,8 +117,14 @@ Se o emulador estiver umauthorized, você deve desligar o aparelho virtualizado 
 
 Instalação do Robot Framework
 
-Abrir o terminal do Windows e digitar “pip install robotframework”
+Abrir o terminal do Windows e digitar
+...
+pip install robotframework
+...
 
 Instalação do Appium Library
 
-Abrir o terminal do Windows e digitar “pip install --upgrade robotframework-appiumlibrary”
+Abrir o terminal do Windows e digitar
+...
+pip install --upgrade robotframework-appiumlibrary
+...
