@@ -1,4 +1,6 @@
-## Curso da QANinja de automação de testes mobile com Robot Framework e Appium.
+## Curso da QANinja de automação de testes mobile
+
+Robot Framework e Appium (Android)
 
 ## Configuração e instalação do ambiente do projeto
 
